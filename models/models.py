@@ -4,7 +4,7 @@ from openerp import models, fields, api, exceptions
 import pdb
 
 class openacademy(models.Model):
-    name = 'openacademy.openacademy'
+    _name = 'openacademy.openacademy'
     name = fields.Char()
 
 class Course(models.Model):
